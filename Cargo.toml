@@ -1,0 +1,15 @@
+[package]
+authors = ["Andrew Merenbach <andrew@merenbach.com>"]
+edition = "2021"
+name = "collatz"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+  "collatz_conjecture",
+]
+
+[dependencies]
+collatz_conjecture = {path = "collatz_conjecture"}
